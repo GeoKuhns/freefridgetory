@@ -2,12 +2,17 @@
 
 
 h1{
-    color:mintcream;
+    color:black;
     font-family: "Expletus Sans","Arima Madurai","Spectral","Georgia",sans-serif;
     font-size: 24px;
 }
+pre{
+    color:black;
+    font-family: "Expletus Sans","Arima Madurai","Spectral","Georgia",sans-serif;
+    font-size: 20px;
+}
 p{
-    color:mintcream;
+    color:black;
     font-family: "Kanit","K2D","Epilogue","Cambria",sans-serif;
     font-size: 14px;
 }
@@ -16,10 +21,56 @@ ul{
     list-style: none;
     display: flex;
 }
+li{
+    color:black;
+    font-family: "Expletus Sans","Arima Madurai","Spectral","Georgia",sans-serif;
+    font-size: 16px;
+}
 
 *{
     box-sizing: border-box;
 }/* ^^W3 says helps layout: includes padding and borders in element sizes for gridding*/
+
+header{
+    background-color: #FAD5AB;
+}
+
+#heroBanner{
+    background-image:url("../images/Header.png");
+}
+#heroWelcomeNeighbor{
+
+}
+#heroTakeLeave{
+
+}
+
+.cardStat{
+
+}
+
+.allMapPins{
+
+}
+#mapPin1{
+
+}
+#mapPin2{
+
+}
+#mapPin3{
+
+}
+#mapPin4{
+
+}
+#mapPin5{
+
+}
+
+footer{
+    background-color: #FAD5AB;
+}
 
 /*Style Tyle universal styling ^^^^^^^^^^^^*/
 
