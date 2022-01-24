@@ -85,7 +85,10 @@ header{
 #heroBanner{
     background-image:url("../images/Header.png");
     height: 35vh;
+    margin: auto;
+    width: 100%;
     text-align: center;
+    padding-top: 2%;
 }
 #heroWelcomeNeighbor{
 
@@ -102,9 +105,15 @@ header{
     grid-template-areas:    "whoTitle   whoTitle"
                             "whoLeft    WhoRight";
 }
+#who{
+    text-align: center;
+    margin: auto;
+    width: 100%;
+}
 #whoTitle{
     display:grid;
     grid-area: whoTitle;
+    
 }
 #whoLeft{
     display: grid;
