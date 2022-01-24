@@ -3,18 +3,38 @@
 
 h1{
     color:black;
-    font-family: "Expletus Sans","Arima Madurai","Spectral","Georgia",sans-serif;
-    font-size: 24px;
+    font-family: "Outfit","Helvetica","Spectral","Georgia",sans-serif;
+    font-size: 50px;
+}
+h2{
+    color:black;
+    font-family: "Outfit","Helvetica","Spectral","Georgia",sans-serif;
+    font-size: 40px;
+}
+h3{
+    color:black;
+    font-family: "Outfit","Helvetica","Spectral","Georgia",sans-serif;
+    font-size: 30px;
+}
+h4{
+    color:black;
+    font-family: "Outfit","Helvetica","Spectral","Georgia",sans-serif;
+    font-size: 20px;
+}
+h5{
+    color:black;
+    font-family: "Outfit","Helvetica","Spectral","Georgia",sans-serif;
+    font-size: 14px;
 }
 pre{
     color:black;
-    font-family: "Expletus Sans","Arima Madurai","Spectral","Georgia",sans-serif;
-    font-size: 20px;
+    font-family: "Outfit","Helvetica","Spectral","Georgia",sans-serif;
+    font-size: 25px;
 }
 p{
     color:black;
-    font-family: "Kanit","K2D","Epilogue","Cambria",sans-serif;
-    font-size: 14px;
+    font-family: "Outfit","Helvetica","Epilogue","Cambria",sans-serif;
+    font-size: 12px;
 }
 
 ul{
@@ -25,18 +45,47 @@ li{
     color:black;
     font-family: "Expletus Sans","Arima Madurai","Spectral","Georgia",sans-serif;
     font-size: 16px;
+
+    padding-left: 2vw;
+    padding-right: 2vw;
 }
 
 *{
     box-sizing: border-box;
 }/* ^^W3 says helps layout: includes padding and borders in element sizes for gridding*/
 
+/*The Header: logo, title, and navigation*/
 header{
     background-color: #FAD5AB;
+    height: 12vh;
+
+    display: grid;
+    grid-template-columns:  8vw         25vw        33vw        33vw;
+    grid-template-areas:    "headerLogo headerTitle headerGap   headerNav";
+}
+#headerLogo{
+    width: 60px;
+
+    display: grid;
+    grid-area: headerLogo;
+}
+#headerTitle{
+    display: grid;
+    grid-area: headerTitle;
+}
+#headerGap{
+    display: grid;
+    grid-area: headerGap;
+}
+#headerNav{
+    display: grid;
+    grid-area: headerNav;
 }
 
 #heroBanner{
     background-image:url("../images/Header.png");
+    height: 35vh;
+    text-align: center;
 }
 #heroWelcomeNeighbor{
 
@@ -45,10 +94,61 @@ header{
 
 }
 
-.cardStat{
+/*Who We Are    underneath the hero banner*/
+#whoWeAre{
+    text-align: center;
+    height: 80vh;
+    display: grid;
+    grid-template-areas:    "whoTitle   whoTitle"
+                            "whoLeft    WhoRight";
+}
+#whoTitle{
+    display:grid;
+    grid-area: whoTitle;
+}
+#whoLeft{
+    display: grid;
+    grid-area: whoLeft;
+}
+#whoRight{
+    display: grid;
+    grid-area: whoRight;
 
+    grid-template-areas:    "whoCard1 whoCard2"
+                            "whoCard3 whoCard4";
 }
 
+.CTA{/*button styling*/
+    border-style: solid;
+    background-color: #FAD5AB;
+    width: 100px;
+    border-radius: 15%;
+    text-align: center;
+}
+
+.tileStat{
+    text-align: center;
+    display: flex;
+}
+.tilePic{
+    width: 1px;
+}
+#whoCard1{
+    display: grid;
+    grid-area: whoCard1;
+}
+#whoCard2{
+    display: grid;
+    grid-area: whoCard2;
+}
+#whoCard3{
+    display: grid;
+    grid-area: whoCard3;
+}
+#whoCard4{
+    display: grid;
+    grid-area: whoCard4;
+}
 .allMapPins{
 
 }
