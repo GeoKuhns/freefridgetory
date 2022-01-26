@@ -1,15 +1,49 @@
-/**regarding the Quote */
-var currentQuote = "Fiction reveals truths that reality obscures.";
-var currentAuthor = "~Jessamyn West";
-var tempRand = Math.floor(Math.random()*10) + 1; /*1-10*/
+/**Fridge for All Java */
 
 /**Defaults = as provided in HTML files */
-/*var heroImageDefault = document.getElementById("heroPic").src;*/
+var dropdownOriginalDisplay = document.getElementById("dropdownContent").style.display;
+
+/**no plans for this; keeping code in case we add a rand factor */
+var tempRand = Math.floor(Math.random()*10) + 1; /*1-10*/
 
 
 
+/**show/hide our address popout on hover allMapPins */
+$(".allMapPins").on("mouseenter",function dropItDown(){
+    console.log("Enter!");
+    document.getElementById("dropdownContent").style.display = "inline-block";
+});
+$(".allMapPins").on("mouseleave",function raiseItBack(){
+    console.log("Leave!");
+    document.getElementById("dropdownContent").style.display = dropdownOriginalDisplay;
+});
 
-/*
+/**change the address to reflect the last mapPin hovered */
+$("#mapPin1").on("mouseenter",function changeAddress(){
+    console.log("Address Changed!");
+    document.getElementById("mapAddress").innerHTML = "7777 E MLK Jr. Blvd";
+});
+$("#mapPin2").on("mouseenter",function changeAddress(){
+    console.log("Address Changed!");
+    document.getElementById("mapAddress").innerHTML = "3506 Springdale Rd";
+});
+$("#mapPin3").on("mouseenter",function changeAddress(){
+    console.log("Address Changed!");
+    document.getElementById("mapAddress").innerHTML = "601 Pecan Brook Dr";
+});
+$("#mapPin4").on("mouseenter",function changeAddress(){
+    console.log("Address Changed!");
+    document.getElementById("mapAddress").innerHTML = "2801 Webberville Rd";
+});
+$("#mapPin5").on("mouseenter",function changeAddress(){
+    console.log("Address Changed!");
+    document.getElementById("mapAddress").innerHTML = "408 E 7th St";
+});
+
+
+
+/*past content; keeping for example reference
+
 /**upon click, change the banner to a random quote 
 $("#bannerQuote").on("click",function changeQuote(){
     console.log("Changed the quote!");
@@ -55,8 +89,3 @@ $(".navigation").on("mouseover",function(){
     lastCard = "default"; /**resets #heroPic on nav-over to index Defaults
 });
 */
-
-/* upon clicking a stat
-$("#heroStatLeft").on("click",function(){
-    console.log("Clicked the left stat!");
-});*/

@@ -1,25 +1,39 @@
 /*Fridge for All Style Sheet 2*/
 
-/*Interaction States*/
-
-.cursorPointer{
-    cursor: pointer;
+/*maybe for java, since it doesn't recognize vw/h, but not useful yet*/
+#screenCheck{
+    width: 1vw;
+    height: 1vh;
 }
+
+#dropdownContent{
+    display: none;
+    position: absolute;
+    padding-top: 0px;
+    padding-left: 10px;
+    z-index: 1;
+
+    background-color: #f9f9f9;
+    border-radius: 15px;
+    height: 40px;
+    max-width: 350px;
+    box-shadow: 0px 8px 16px 0px rgba(40, 209, 68, 0.459);
+}
+
+.allMapPins:hover{
+    transform: scaleX(1.2);/*not currently working*/
+    transform: scaleY(1.2);
+    transform: translate(0px -10px); /*not currently working*/
+    transition: 0.2s;
+}
+
+/*change to number to see which pin this is*/ /*
+#mapPin2:hover { 
+    background-color: blue;
+}*/
 
 
 /*
-#nav1:hover{
-    text-shadow: 0px 4px 12px #2aca0a;
-    transition: 0.2s;
-}
-*/
-
-/*
-#hQuote:hover{
-    text-shadow: 0px 4px 12px #0a8dca;
-    transition: 0.2s;
-}
-*/
 
 /*Breakpoint: Mobile*/
 @media all and (max-width: 500px){
