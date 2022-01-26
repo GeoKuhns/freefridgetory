@@ -89,8 +89,8 @@ header{
 
 #heroBanner{
     background-image:url("../images/Header.png");
+    background-size: cover;
     height: 35vh;
-    margin: auto;
     width: 100%;
     text-align: center;
     padding-top: 3%;
