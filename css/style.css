@@ -280,33 +280,3 @@ footer{
 }
 
 /*Style Tyle universal styling ^^^^^^^^^^^^*/
-
-/*
-#bodyDisplay{
-    background-color: #1B1B29;
-
-    display: grid;
-    grid-template-rows:     5vh         15vh            70vh        10vh    ;
-    grid-template-areas:    "topNav"    "bannerQuote"   "bodyMain"  "botNav";
-}
-*/
-/*
-#nav1:hover{
-    text-shadow: 0px 4px 12px #2aca0a;
-    transition: 0.2s;
-}
-*/
-/*
-#hQuote{
-    cursor:pointer;
-}
-#hQuote:hover{
-    text-shadow: 0px 4px 12px #0a8dca;
-    transition: 0.2s;
-}
-*/
-
-/*Mobile*/
-@media all and (max-width: 500px){
-    
-}
