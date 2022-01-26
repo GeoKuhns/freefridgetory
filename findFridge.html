@@ -1,0 +1,141 @@
+<!--Portfolio Index-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FridgeFA</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+        <link href="css/rwd.css" rel="stylesheet" type="text/css">
+        <link rel="icon" type="image/x-icon" href="" alt="FFA Icon">
+    </head>
+    <body id="">
+        <!--HEADER-->
+        <header>
+            <a href="index.html"><img src="images/Apple Logo.png" id="headerLogo"></a>
+            <h3 id="headerTitle">Fridge For All</h3>
+            <!--Links Etc.-->
+            <nav id="headerNav">
+                <ul>
+                    <li><a href=""><h5>Find a Fridge</a></li>
+                    <li><a href=""><h5>Volunteer</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--HERE TO HELP-->
+        <section id="hereToHelp">
+            <h2 id="hereHelp">We’re Here to Help!</h2>
+            <p id="hereText">We strive to be there for members of our community during moments of needs.
+                            <br><br>Traditional food assistance like SNAP is often not enough, so we strive to bridge the gap with on-demand food when our community is in need.
+                            <br><br>Unlike at a traditional food pantry, we strive to keep Fridge For All stocked with fruits and vegetables and homemade meals, so you can eat fresh, healthy food—free.
+            </p>
+        </section>
+
+        <!--MAP-->
+        <section id="mapFridge">
+            <h2 id="hereHelp">Find Our Fridges</h2>
+            <div>
+                <img src="images/Map.png">
+                <img src="images/Map Pin.png" class="allMapPins" id="mapPin1">
+                <img src="images/Map Pin.png" class="allMapPins" id="mapPin2">
+                <img src="images/Map Pin.png" class="allMapPins" id="mapPin3">
+                <img src="images/Map Pin.png" class="allMapPins" id="mapPin4">
+                <img src="images/Map Pin.png" class="allMapPins" id="mapPin5">
+            </div>
+            <div>
+                <p>We currently have fridges located at:</p>
+                <ul>
+                    <li>408 E 7th Street</li>
+                    <li>7777 E MLK Jr. Blvd</li>
+                    <li>2801 Webberville Rd</li>
+                    <li>3506 Springdale Rd</li>
+                    <li>601 Pecan Brook Dr</li>
+                </ul>
+                <div>
+                    <h5>Find a Fridge</h5>
+                </div>
+            </div>
+        </section>
+
+        <!--WHAT'S IN STOCK-->
+        <section id="whatStock"> <!--note the ID similarities to index, but these are WHAT not WHO-->
+            <h2 id="whatTitle">What's In Stock</h2>
+            <div id="whatLeft">
+                <p>Our smart fridge technology allows you to see what’s available at each location in real time.
+                    <br><br>Select a location below to see what’s in stock today.
+                </p>
+                <div id="dropdown">
+                    <p>408 E 7th Street</p>
+                </div>
+                <div class="tileStat" id="whatCard1">
+                    <img src="images/Apples.png" class="tilePic">
+                    <p class="statText">Apples</p>
+                </div>
+                <div class="tileStat" id="whatCard2">
+                    <img src="images/Eggs.png" class="tilePic">
+                    <p class="statText">Eggs</p> <!--but like. . ."donators" :D -->
+                </div>
+                <div class="tileStat" id="whatCard3">
+                    <img src="images/Bananas.png" class="tilePic">
+                    <p class="statText">Bananas</p>
+                </div>
+                <div class="tileStat" id="whatCard4">
+                    <img src="images/Avocados.png" class="tilePic">
+                    <p class="statText">Avocados</p>
+                </div>
+            </div>
+            <div id="whatRight">
+                <h4>Get Restock Updates</h4>
+                <p>
+                    Want to know when the fridge has been restocked? Sign up to get updates on what’s new in the fridge.
+                </p>
+                <div>
+                    <p>Name</p><div class="inputField"></div>
+                </div>
+                <div>
+                    <p>Phone number</p><div class="inputField"></div>
+                </div>
+                <div>
+                    <p>Email address</p><div class="inputField"></div>
+                </div>
+                <div>
+                    <p>How do you prefer to get updates?</p>
+                    <ul class="inputField"><li>Email</li><li>Text</li></ul>
+                </div>
+                <div id="button">
+                    <h5 class="CTA">Get Involved</h5>
+                </div>
+            </div>
+        </section>
+
+        <!--Need Help?-->
+        <section id="help">
+            <div>
+                <h2>Need Help?</h2>
+                <p>Traditional food assistance like SNAP is often not enough, so we strive to bridge the gap with on-demand food when our community is in need.</p>
+            </div>
+            <div id="basket">
+                <img src="images/Basket.png">
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer>
+            <div id="footAddress">
+                <h3>Fridge for All</h3>
+                <p>408 E 7th St. | Austin, TX<br>Contact us:<br>512-867-5309<br>hello@fridgeforall.com</p>
+            </div>
+            <div>
+                <img src="images/Apple Logo.png" id="footLogo">
+            </div>
+            <div>
+                <img src="images/Facebook.png">
+                <img src="images/Instagram.png">
+                <img src="images/Twitter.png">
+            </div>
+        </footer>
+        
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="js/index.js"></script>
+    </body>
+</html>
