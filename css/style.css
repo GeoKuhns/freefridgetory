@@ -146,7 +146,7 @@ header{
 #whoRight{
     scale: -10%;
     float: right;
-    margin-top: -26%;
+    margin-top: -470px;
     padding-right: 25%;
     margin-left: 75vw;
     width: 45%;
@@ -224,8 +224,6 @@ header{
     padding-left: 18%;
     padding-bottom: 5%;
     padding-right: 20px;
-
-    border-style: solid;
 }
 
 .allMapPins{
@@ -255,7 +253,7 @@ header{
 #location{
     float: right;
     text-align: left;
-    margin-top: -21%;
+    margin-top: -310px;
     margin-right: 20vw;
     width: 30%;
 }
@@ -361,7 +359,7 @@ if they don't each need micro-spacing*/
 footer{
     background-color: #FAD5AB;
     text-align: center;
-    height: 25vh;
+    height: 30vh;
 }
 #footLogo{
     padding: 30px;
