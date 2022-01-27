@@ -249,6 +249,50 @@ header{
     margin-top: 4%;
 }
 
+#hereToHelp{
+    
+}
+
+.hereHelp{
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+#hereText{
+    text-align: left;
+    margin: auto;
+    width: 45%;
+}
+
+#mapContent {
+    margin-top: 3%;
+    padding-left: 18%;
+    padding-bottom: 5%;
+    padding-right: 20px;
+}
+
+#findFridge{
+    margin-top: 3%;
+    padding-left: 18%;
+    width: 45%;
+}
+li{
+    text-align: left;
+    list-style-type: circle;
+    width: 25%;
+}
+
+#addresses{
+    
+}
+
+
+
+
+
+
+
 footer{
     background-color: #FAD5AB;
     text-align: center;
@@ -278,6 +322,12 @@ footer{
 #footIn{
     padding-right: 30px;
 }
+
+
+
+
+
+
 
 /*Style Tyle universal styling ^^^^^^^^^^^^*/
 
