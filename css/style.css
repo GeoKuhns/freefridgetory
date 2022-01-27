@@ -122,20 +122,20 @@ header{
 /*Who We Are    underneath the hero banner_____________________*/
 #whoWeAre{
     padding-bottom: 5%;
-    display: grid;
+    /*display: grid;
     grid-template-areas:    "whoTitle   whoTitle"
-                            "whoLeft    WhoRight";
+                            "whoLeft    WhoRight";*/
 }
 #who{
     text-align: center;
     margin-top: 5%;
     width: 100%;
 }
-#whoTitle{
+.sectionTitle{
     text-align: center;
-    display:grid;
     padding-top: 3%;
-    grid-area: whoTitle;
+    /*display:grid;
+    grid-area: whoTitle;*/
     
 }
 #whoLeft{
@@ -150,11 +150,14 @@ header{
     padding-right: 25%;
     margin-left: 75vw;
     width: 45%;
-    display: grid;
-    grid-area: whoRight;
+    /*grid-area: whoRight;*/
 
+    display: grid;
     grid-template-areas:    "whoCard1 whoCard2"
                             "whoCard3 whoCard4";
+}
+#button{
+    /**/
 }
 
 .CTA{/*button styling*/
@@ -162,12 +165,13 @@ header{
     background-color: #FAD5AB;
     height: 40px;
     width: 150px;
-    margin-left: 7vw;
     border-radius: 10px;
     text-align: center;
-    padding-top: 5px;
-    margin-top: 18%;
     cursor: pointer;
+
+    margin-left: 7vw;
+    margin-top: 18%;
+    padding-top: 5px;
 }
 
 /*Tile/Card Styling_____________________________________________*/

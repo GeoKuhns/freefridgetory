@@ -36,7 +36,52 @@
 /*
 
 /*Breakpoint: Mobile*/
-@media all and (max-width: 500px){
+@media all and (max-width: 900px){
+
+    /*Who We Are & What We Do Section___________________*/
+
+    #button{
+        width: 50vw;
+
+        margin-top: 0px;
+        margin-bottom: 250px;
+        margin-left: 180px;
+    }
+
+    #whoLeft{
+        text-align: left;
+        padding-left: 12%;
+        padding-right: 12%;
+        width: 100%;
+        margin-bottom: 10%;
+    }
+
+    #whoRight{
+        float:left;
+        margin-left:20vw;
+    }
+
+    /*Need Help? Fruit Basket___________________________________*/
+
+    #help{
+        text-align: left;
+        padding-left: 12%;
+        padding-right: 12%;
+        width: 100%;
+        
+        border-style: solid; /*to see what we're talking about*/
+    }
+    #help h2{
+        margin-top:330px;
+        text-align: center;
+        margin-left: 0px;
+    }
+    #basket{
+        margin-top: 0%;
+        margin-left: 150px;
+        width: 45%;
+    }
+    
     
 }
 
