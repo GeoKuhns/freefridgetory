@@ -69,12 +69,13 @@
         padding-right: 12%;
         width: 100%;
         
-        border-style: solid; /*to see what we're talking about*/
+        /*border-style: solid; /*to see what we're talking about*/
     }
     #help h2{
-        margin-top:330px;
+        margin-top:300px;
         text-align: center;
         margin-left: 0px;
+        padding-top: 100px;
     }
     #basket{
         margin-top: 0%;

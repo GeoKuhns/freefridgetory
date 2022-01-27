@@ -84,7 +84,7 @@ header{
 #headerLogo{
     padding-top: 5%;
     margin-left: auto;
-    width: 60%;
+    width: 70px;
 
     display: grid;
     grid-area: headerLogo;
@@ -224,29 +224,32 @@ header{
     padding-left: 18%;
     padding-bottom: 5%;
     padding-right: 20px;
+
+    border-style: solid;
 }
 
 .allMapPins{
     position: absolute;
 }
 #mapPin1{
-    margin-left: -26%;
+    margin-left: -480px;
+    margin-top: 50px;
 }
 #mapPin2{
-    margin-left: -15%;
-    margin-top: 1%;
+    margin-left: -300px;
+    margin-top: 0px;
 }
 #mapPin3{
-    margin-left: -22%;
-    margin-top: 4%;
+    margin-left: -400px;
+    margin-top: 120px;
 }
 #mapPin4{
-    margin-left: -13%;
-    margin-top: 10%;
+    margin-left: -350px;
+    margin-top: 220px;
 }
 #mapPin5{
-    margin-left: -30%;
-    margin-top: 11%;
+    margin-left: -250px;
+    margin-top: 170px;
 }
 
 #location{
