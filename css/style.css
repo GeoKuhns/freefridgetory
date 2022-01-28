@@ -84,7 +84,7 @@ header{
 #headerLogo{
     padding-top: 5%;
     margin-left: auto;
-    width: 60%;
+    width: 70px;
 
     display: grid;
     grid-area: headerLogo;
@@ -146,7 +146,7 @@ header{
 #whoRight{
     scale: -10%;
     float: right;
-    margin-top: -26%;
+    margin-top: -470px;
     padding-right: 25%;
     margin-left: 75vw;
     width: 45%;
@@ -230,29 +230,30 @@ header{
     position: absolute;
 }
 #mapPin1{
-    margin-left: -26%;
+    margin-left: -480px;
+    margin-top: 50px;
 }
 #mapPin2{
-    margin-left: -15%;
-    margin-top: 1%;
+    margin-left: -300px;
+    margin-top: 0px;
 }
 #mapPin3{
-    margin-left: -22%;
-    margin-top: 4%;
+    margin-left: -400px;
+    margin-top: 120px;
 }
 #mapPin4{
-    margin-left: -13%;
-    margin-top: 10%;
+    margin-left: -350px;
+    margin-top: 220px;
 }
 #mapPin5{
-    margin-left: -30%;
-    margin-top: 11%;
+    margin-left: -250px;
+    margin-top: 170px;
 }
 
 #location{
     float: right;
     text-align: left;
-    margin-top: -21%;
+    margin-top: -310px;
     margin-right: 20vw;
     width: 30%;
 }
@@ -405,7 +406,7 @@ if they don't each need micro-spacing*/
 footer{
     background-color: #FAD5AB;
     text-align: center;
-    height: 25vh;
+    height: 30vh;
 }
 #footLogo{
     padding: 30px;

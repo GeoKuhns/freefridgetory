@@ -9,15 +9,18 @@
 #dropdownContent{
     display: none;
     position: absolute;
-    padding-top: 0px;
     padding-left: 10px;
     z-index: 1;
 
     background-color: #f9f9f9;
     border-radius: 15px;
     height: 40px;
-    max-width: 350px;
-    box-shadow: 0px 8px 16px 0px rgba(40, 209, 68, 0.459);
+    min-width: 150px;
+    box-shadow: 0px 4px 8px 0px rgba(40, 209, 68, 0.459);
+}
+
+#mapAddress{
+    margin-top: 10px;
 }
 
 .allMapPins:hover{
@@ -36,7 +39,7 @@
 /*
 
 /*Breakpoint: Mobile*/
-@media all and (max-width: 900px){
+@media all and (max-width: 1000px){
 
     /*Who We Are & What We Do Section___________________*/
 
@@ -59,6 +62,7 @@
     #whoRight{
         float:left;
         margin-left:20vw;
+        margin-top: -170px;
     }
 
     /*Need Help? Fruit Basket___________________________________*/
@@ -69,17 +73,51 @@
         padding-right: 12%;
         width: 100%;
         
-        border-style: solid; /*to see what we're talking about*/
+        /*border-style: solid; /*to see what we're talking about*/
     }
     #help h2{
-        margin-top:330px;
+        margin-top:300px;
         text-align: center;
         margin-left: 0px;
+        padding-top: 100px;
     }
     #basket{
         margin-top: 0%;
         margin-left: 150px;
         width: 45%;
+    }
+    
+    /*Map_______________________________________________________*/
+    #location{
+        float: none;
+        text-align: left;
+        margin-top: 60px;
+        padding-left: 12%;
+        padding-right: 12%;
+        width: 100%;
+    }
+    
+    #dropdownContent{
+        margin-left: -42vw;
+        margin-top: 366px;
+    }
+
+    
+    /*Footer_____________________________________________________*/
+    footer{
+        height: 40vh; /*not currently working*/
+    }
+    
+    #footLogo{
+        padding-top: 50px;
+        margin-right: -400px;
+    }
+
+    #footSocial{
+        float: left;
+        margin-left: 130px;
+        margin-right: 0vw;
+        margin-top: -30px;
     }
     
     
