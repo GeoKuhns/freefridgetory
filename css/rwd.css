@@ -24,9 +24,8 @@
 }
 
 .allMapPins:hover{
-    transform: scaleX(1.2);/*not currently working*/
-    transform: scaleY(1.2);
-    transform: translate(0px -10px); /*not currently working*/
+    transform: scaleX(1.2);/*only 1 transform works at once*/
+    transform: translate(0px -10px); 
     transition: 0.2s;
 }
 
@@ -92,11 +91,14 @@
         float: none;
         text-align: left;
         margin-top: 60px;
+        margin-left: 0px;
         padding-left: 12%;
         padding-right: 12%;
         width: 100%;
     }
     
+    
+
     #dropdownContent{
         margin-left: -42vw;
         margin-top: 366px;
@@ -105,7 +107,7 @@
     
     /*Footer_____________________________________________________*/
     footer{
-        height: 40vh; /*not currently working*/
+        height: 45vh; /*not currently working*/
     }
     
     #footLogo{

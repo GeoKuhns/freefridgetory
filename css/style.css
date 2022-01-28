@@ -81,7 +81,7 @@ header{
     display: grid;
     grid-template-columns:  8vw         25vw        33vw;
     grid-template-areas:    "headerLogo headerTitle headerGap";
-}
+}/*shouldn't these be swapped, so our nav's on the right? ^^*/
 #headerLogo{
     padding-top: 5%;
     margin-left: auto;
@@ -250,7 +250,7 @@ header{
     margin-top: 170px;
 }
 
-#location{
+#location{/*good for popping text from underneath to the right*/
     float: left;
     text-align: left;
     margin-left: 700px;
@@ -279,19 +279,52 @@ header{
     cursor: pointer;
 }
 
-/*page 2 new declrations
-didn't move others around, so that you could find them still,
-in case you're familiar with their order on this page.*/
+
+.CTA3{/*not sure why they're multiple, but this is for Donate pg*/
+    border-style: solid;
+    background-color: #FAD5AB;
+    height: 40px;
+    width: 150px;
+    margin-left: 7vw;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    cursor: pointer;
+}
+
+/*Page 2 Declarations________________________________*/
 #whatStock{
-    /**/
+    margin-bottom: 12vh;
 }
 #whatTitle{
     text-align: center;
 }
+
+#whatLeft{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+
+    margin-left: 100px;
+}
+
 #whatLeft p{
-    width: 75%;
+    width: 100%;
     margin-left: 20%;
     padding-right: 30px;
+}
+
+#stockDropdown{
+    margin-left: 80px;
+    padding-right: 10px;
+}
+
+#whatRight{
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+
+    margin-left: 10vw;
 }
 #whatBelow{
     scale: -10%;
@@ -315,12 +348,7 @@ in case you're familiar with their order on this page.*/
 
 #input1{
     text-align: left;
-    margin-left: 47vw;
-    width: 30%;
-}
-
-.dropdown{
-    /**/
+    width: 100%;
 }
 
 #whatCard1{
@@ -346,13 +374,13 @@ in case you're familiar with their order on this page.*/
     padding-right: 20px;
 }
 
-.hereHelp{
+.sectionTitle{
     text-align: center;
     padding-bottom: 3%;
     margin: auto;
 }
 
-#hereText{
+.sectionText{
     text-align: left;
     margin: auto;
     width: 45%;
@@ -378,15 +406,98 @@ in case you're familiar with their order on this page.*/
 }
 
 
+/*Page 3 Declarations________________________________*/
+#donateText{
+    float: left;
+    text-align: left;
+    margin-left: 700px;
+    margin-top: -325px;
+    width: 30%;
+}
+
+#directions{
+}
+.cardStep{
+    display: inline-block;
+    width: 250px;
+
+    margin: 4vw;
+    vertical-align:top;
+    padding: 2%
+}
+#firstStep{
+    margin-left: 12vw;
+}
+
+.cardStep img{
+    padding-left: 42px;
+}
+.cardTitle{
+    text-align: left;
+    margin-left: 75px;
+}
+.cardText{
+    text-align: left;
+}
+
+/*there is a CTA3, but i put it up next to both CTA2's*/
 
 
+.itemLists{
+    display: inline-block;
+    width: 350px;
+    padding: 4%;
+    margin-left: 10vw;
+}
 
+#lowLeft{
+    display: inline-block;
+    vertical-align: top;
+    width: 650px;
 
+    padding: 4%;
+    margin-left: 10vw;
+}
+#lowRight{
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
 
+    padding: 4%;
+    margin-left: 0px;
+}
+
+.inputField{
+    border-style: solid;
+    background-color: #eff7f0;
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    cursor:text;
+}
+
+.inputField p{
+    margin-top: 0px; /*lines up the address in FindFridge "dropdown"*/
+}
+
+.lastSections{
+    margin-top: 2vh;
+    margin-bottom: 12vh;
+}
+
+.lastCTAs{
+    text-align: center;
+    padding-bottom: 3%;
+    margin: auto;
+    margin-top: 5vh;
+}
+
+/*Footer Declarations________________________________*/
 footer{
     background-color: #FAD5AB;
     text-align: center;
-    height: 30vh;
+    height: 35vh;
 }
 #footLogo{
     padding: 30px;

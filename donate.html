@@ -23,16 +23,16 @@
 
         <!--Donate Hero-->
         <section id="hereToHelp"> <!--left these IDs the same, as findFridge. make classes to affect bottom section headers the same? left a similar note in CSS-->
-            <h2 id="hereHelp">Donate to Your Neighbors</h2>
+            <h2 class="sectionTitle">Donate to Your Neighbors</h2>
             <img id="donorPic" src="./images/Volunteer Desktop.png">
-            <p id="hereText" >We welcome you to donate and give what you can, whether it’s through monetary donations or dropping off food at one of our smart fridges.
+            <p id="donateText" >We welcome you to donate and give what you can, whether it’s through monetary donations or dropping off food at one of our smart fridges.
                             <br><br>Thanks to our community for their generous donations that help keep our neighbors fed.
             </p>
         </section>
 
         <!--Step by Step Directions-->
         <section id="directions">
-            <div class="cardStep">
+            <div class="cardStep" id="firstStep">
                 <img src="./images/Grocery Cart.png">
                 <h4 class="cardTitle">Step 1</h4>
                 <p class="cardText">While you’re at the grocery store, pick up some extra items for your neighbors in need. Be sure to check out what’s needed most below.</p>
@@ -51,7 +51,7 @@
 
         <!--MAP-->
         <section id="mapFridge">
-            <h2 id="hereHelp">Find Our Fridges</h2>
+            <h2 class="sectionTitle">Find Our Fridges</h2>
             <div>
                 <img src="images/Map.png">
                 <img src="images/Map Pin.png" class="allMapPins" id="mapPin1">
@@ -61,7 +61,7 @@
                 <img src="images/Map Pin.png" class="allMapPins" id="mapPin5">
                 <div id="dropdownContent"><p id="mapAddress">867 Five Three O'Nine St</p></div>
             </div>
-            <div>
+            <div id="location">
                 <p>We currently have fridges located at:</p>
                 <ul>
                     <li>408 E 7th Street</li>
@@ -71,11 +71,11 @@
                     <li>601 Pecan Brook Dr</li>
                 </ul>
                 <a href="findFridge.html"><div>
-                    <h5>Find a Fridge</h5>
+                    <h5 class="CTA3">Find a Fridge</h5>
                 </div></a>
             </div>
             <!--the following lists are unique to page 3-->
-            <div>
+            <div class="itemLists">
                 <h4>Items We Need Most</h4>
                 <ul>
                     <li>Fresh produce (i.e., fruits, veggies)</li>
@@ -86,7 +86,7 @@
                     <li>Feminine products & toiletries</li>
                 </ul>
             </div>
-            <div>
+            <div class="itemLists">
                 <h4>Items We Do Not Need</h4>
                 <ul>
                     <li>Candy</li>
@@ -100,7 +100,7 @@
         </section>
 
         <!--GET LOW STOCK UPDATES-->
-        <section id="lowStock"> <!--note the ID similarities to index, but these are WHAT not WHO-->
+        <section id="lowStock">
             <div id="lowLeft">
                 <h4>Get Low Stock Updates</h4>
                 <p>Join our network of volunteers and keep our neighbors fed.
@@ -119,7 +119,7 @@
                 </div>
                 <div>
                     <p>How do you prefer to get updates?</p>
-                    <ul class="inputField"><li>Email</li><li>Text</li></ul>
+                    <ul><li>Email</li><li>Text</li></ul>
                 </div>
                 <a href=""><div id="button">
                     <h5 class="CTA">Sign Up</h5>
@@ -128,20 +128,20 @@
         </section>
         
         <!--FAQ Section-->
-        <section> <!--instead of same IDs, tried re-usable Classes, here-->
-            <h2 class="sectionHeader">Donate to Your Neighbors</h2>
+        <section class="lastSections"> <!--instead of same IDs, tried re-usable Classes, here-->
+            <h2 class="sectionTitle">Donate to Your Neighbors</h2>
             <p class="sectionText">Check out our FAQ page for more information about Fridge For All.</p>
             <a href=""><div id="button"> <!--this might be our button issue: re-using this ID here. redefine as a class?-->
-                <h5 class="CTA">View FAQs</h5>
+                <h5 class="CTA lastCTAs">View FAQs</h5>
             </div></a>
         </section>
         
         <!--FAQ-2 Section-->
-        <section> <!--left these IDs the same, as findFridge-->
-            <h2 class="sectionHeader">Can’t Donate Food? Donate Funds!</h2>
+        <section class="lastSections"> <!--left these IDs the same, as findFridge-->
+            <h2 class="sectionTitle">Can’t Donate Food? Donate Funds!</h2>
             <p class="sectionText">Whether you donate one time or every month, $5 or $50, every little bit helps keep our community fed.</p>
             <a href=""><div id="button"> <!--this might be our button issue: re-using this ID here. redefine as a class?-->
-                <h5 class="CTA">Donate</h5>
+                <h5 class="CTA lastCTAs">Donate</h5>
             </div></a>
         </section>
 
@@ -154,7 +154,7 @@
             <div id="footLogo">
                 <a href="index.html"><img src="images/Apple Logo.png"></a>
             </div>
-            <div>
+            <div id="footSocial">
                 <img src="images/Facebook.png" id="footFace">
                 <img src="images/Instagram.png" id="footIn">
                 <img src="images/Twitter.png" id="footTwit">
