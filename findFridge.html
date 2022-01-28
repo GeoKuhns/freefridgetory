@@ -13,12 +13,10 @@
             <a href="index.html"><img src="images/Apple Logo.png" id="headerLogo"></a>
             <h3 id="headerTitle">Fridge For All</h3>
             <!--Links Etc.-->
-            <nav id="headerNav">
-                <ul>
-                    <li><a href=""><h5>Find a Fridge</a></li>
-                    <li><a href="donate.html"><h5>Donate</a></li>
-                </ul>
-            </nav>
+            <div id="headerNav">
+                    <a href=""><h5>Find a Fridge</a>
+                    <a href="donate.html"><h5>Donate</a>
+            </div>
         </header>
 
         <!--HERE TO HELP-->
@@ -52,15 +50,17 @@
                     <li>3506 Springdale Rd</li>
                     <li>601 Pecan Brook Dr</li>
                 </ul>
-                <a href=""><div>
-                    <h5>Find a Fridge</h5>
-                </div></a>
+                <div id="button2">
+                    <a href="findFridge.html"><h5 id="CTA2">Find a Fridge</h5></a>
+                </div>
+                </div>
             </div>
         </section>
 
         <!--WHAT'S IN STOCK-->
         <section id="whatStock"> <!--note the ID similarities to index, but these are WHAT not WHO-->
-            <h2 id="whatTitle">What's In Stock</h2>
+            <div id="whatTitle"><h2>What's In Stock</h2>
+            </div>
             <div id="whatLeft">
                 <p>Our smart fridge technology allows you to see what’s available at each location in real time.
                     <br><br>Select a location below to see what’s in stock today.
@@ -68,6 +68,7 @@
                 <div class="dropdown">
                     <p>408 E 7th Street</p>
                 </div>
+                <div id="whatBelow">
                 <div class="tileStat" id="whatCard1">
                     <img src="images/Apples.png" class="tilePic">
                     <!--<p class="statText">Apples</p>-->
@@ -84,28 +85,35 @@
                     <img src="images/Avocados.png" class="tilePic">
                     <!--<p class="statText">Avocados</p>-->
                 </div>
+                </div>
             </div>
             <div id="whatRight">
-                <h4>Get Restock Updates</h4>
+                <div id="right">
+                    <div id="restock"><h4>Get Restock Updates</h4>
+                </div>
+                <div id="input1">
                 <p>
-                    Want to know when the fridge has been restocked? Sign up to get updates on what’s new in the fridge.
+                    Want to know when the fridge has been restocked?
+                    Sign up to get updates on what’s new in the fridge.
                 </p>
-                <div>
+                </div>
+                <div id="input2">
                     <p>Name</p><div class="inputField"></div>
                 </div>
-                <div>
+                <div id="input3">
                     <p>Phone number</p><div class="inputField"></div>
                 </div>
-                <div>
+                <div id="input4">
                     <p>Email address</p><div class="inputField"></div>
                 </div>
-                <div>
+                <div id="input5">
                     <p>How do you prefer to get updates?</p>
-                    <ul class="inputField"><li>Email</li><li>Text</li></ul>
+                    <div class="inputField"><h4>Email</h4><h4>Text</h4></div>
+                </div>
                 </div>
                 <a href=""><div id="button">
                     <h5 class="CTA">Sign Up</h5>
-                </div></a>
+                </div>
             </div>
         </section>
 
@@ -118,7 +126,7 @@
             <div id="footLogo">
                 <a href="index.html"><img src="images/Apple Logo.png"></a>
             </div>
-            <div>
+            <div id="footSocial">
                 <img src="images/Facebook.png" id="footFace">
                 <img src="images/Instagram.png" id="footIn">
                 <img src="images/Twitter.png" id="footTwit">
