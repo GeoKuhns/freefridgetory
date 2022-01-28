@@ -308,7 +308,6 @@ in case you're familiar with their order on this page.*/
     /**/
 }
 
-<<<<<<< HEAD
 #hereToHelp{
     
 }
@@ -353,56 +352,6 @@ li{
 
 
 
-=======
-.inputField{
-    /**/
-}
-
-
-/*page 3/new declrations
-didn't move others around, so that you could find them still,
-in case you're familiar with their order on this page.*/
-#donorPic{
-    /**/
-}
-
-#directions{
-    /**/
-}
-.cardStep{
-    /**/
-}
-.cardTitle{
-    /**/
-}
-.cardText{
-    /**/
-}
-
-/*the repetitive nature of some of these IDs makes me wonder
-can we generalize the name so it'd be less confusing to apply
-the same spacing to comparable sections on each page?
-e.g., sectionHeader below, but used in place of other IDs, too,
-if they don't each need micro-spacing*/
-#lowStock{
-    /**/
-}
-#lowLeft{
-    /**/
-}
-#lowRight{
-    /**/
-}
-
-.sectionHeader{
-    /**/
-}
-.sectionText{
-    /**/
-}
-
-/*footer styling____________________________________________________*/
->>>>>>> 030f792210b6fc26575bb80ed556b340653a7cf2
 footer{
     background-color: #FAD5AB;
     text-align: center;
@@ -434,35 +383,6 @@ footer{
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-
-
-
-
-
-
-/*Style Tyle universal styling ^^^^^^^^^^^^*/
-
-/*
-#bodyDisplay{
-    background-color: #1B1B29;
-
-    display: grid;
-    grid-template-rows:     5vh         15vh            70vh        10vh    ;
-    grid-template-areas:    "topNav"    "bannerQuote"   "bodyMain"  "botNav";
-}
-*/
-/*
-#nav1:hover{
-    text-shadow: 0px 4px 12px #2aca0a;
-    transition: 0.2s;
-}
-*/
-/*
-#hQuote{
-    cursor:pointer;
-=======
 #footTwit{
     cursor: pointer;
->>>>>>> 030f792210b6fc26575bb80ed556b340653a7cf2
 }
