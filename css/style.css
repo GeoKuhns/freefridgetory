@@ -41,14 +41,15 @@ p{
 
 ul{
     list-style: none;
-    display: flex;
+    width: 300px;
 }
 li{
     color:black;
     font-family: "Outfit","Helvetica","Georgia","Cambira",sans-serif;
     font-size: 16px;
-    padding-left: 2vw;
-    padding-right: 2vw;
+    padding: 10px;
+    width: 600px;
+    list-style-type: disc;
 }
 
 a:link{
@@ -78,8 +79,8 @@ header{
     height: 12vh;
 
     display: grid;
-    grid-template-columns:  8vw         25vw        33vw        33vw;
-    grid-template-areas:    "headerLogo headerTitle headerGap   headerNav";
+    grid-template-columns:  8vw         25vw        33vw;
+    grid-template-areas:    "headerLogo headerTitle headerGap";
 }
 #headerLogo{
     padding-top: 5%;
@@ -95,13 +96,12 @@ header{
     display: grid;
     grid-area: headerTitle;
 }
-#headerGap{/*used only for spacing*/
-    display: grid;
-    grid-area: headerGap;
-}
 #headerNav{
-    display: grid;
-    grid-area: headerNav;
+    border-style: dotted;
+}
+#headerNav a{
+    float: left;
+    padding: 10px;
 }
 
 #heroBanner{
@@ -251,14 +251,18 @@ header{
 }
 
 #location{
-    float: right;
+    float: left;
     text-align: left;
-    margin-top: -310px;
-    margin-right: 20vw;
+    margin-left: 700px;
+    margin-top: -325px;
     width: 30%;
 }
 
-#button2{/*button styling*/
+#button2{
+    padding-top: 15px;
+}
+
+#CTA2{/*button styling*/
     border-style: solid;
     background-color: #FAD5AB;
     height: 40px;
@@ -266,7 +270,7 @@ header{
     margin-left: 7vw;
     border-radius: 10px;
     text-align: center;
-    margin-top: 18%;
+    padding-top: 5px;
     cursor: pointer;
 }
 
@@ -282,13 +286,37 @@ in case you're familiar with their order on this page.*/
     /**/
 }
 #whatTitle{
-    /**/
+    text-align: center;
 }
-#whatLeft{
-    /**/
+#whatLeft p{
+    width: 75%;
+    margin-left: 20%;
+    padding-right: 30px;
 }
-#whatRight{
-    /**/
+#whatBelow{
+    scale: -10%;
+    float: left;
+    margin-left: 19%;
+    width: 30%;
+    /*grid-area: whoRight;*/
+
+    display: grid;
+    grid-template-areas:    "whatCard1 whatCard2"
+                            "whatCard3 whatCard4";
+}
+
+#right{
+    border-style: dotted;
+}
+
+#restock{
+    text-align: center;
+}
+
+#input1{
+    text-align: left;
+    margin-left: 47vw;
+    width: 30%;
 }
 
 .dropdown{
@@ -309,13 +337,19 @@ in case you're familiar with their order on this page.*/
 }
 
 #hereToHelp{
-    
+    padding-top: 1%;
+}
+
+#mapFridge{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 20px;
 }
 
 .hereHelp{
     text-align: center;
-    padding-top: 3%;
     padding-bottom: 3%;
+    margin: auto;
 }
 
 #hereText{
@@ -325,25 +359,22 @@ in case you're familiar with their order on this page.*/
 }
 
 #mapContent {
+    margin-left: 18%;
     margin-top: 3%;
-    padding-left: 18%;
-    padding-bottom: 5%;
     padding-right: 20px;
+    max-width: fit-content;
 }
 
 #findFridge{
-    margin-top: 3%;
-    padding-left: 18%;
-    width: 45%;
-}
-li{
+    float: left;
     text-align: left;
-    list-style-type: circle;
-    width: 25%;
+    margin-left: 1000px;
+    margin-top: -360px;
 }
 
+
 #addresses{
-    
+    width: 5vw;
 }
 
 
