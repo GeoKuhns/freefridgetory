@@ -79,8 +79,8 @@ header{
     height: 12vh;
 
     display: grid;
-    grid-template-columns:  8vw         25vw        33vw;
-    grid-template-areas:    "headerLogo headerTitle headerGap";
+    grid-template-columns:  8vw         25vw        33vw      33vw;
+    grid-template-areas:    "headerLogo headerTitle headerGap headerNav";
 }/*shouldn't these be swapped, so our nav's on the right? ^^*/
 #headerLogo{
     padding-top: 5%;
@@ -97,11 +97,18 @@ header{
     grid-area: headerTitle;
 }
 #headerNav{
-    border-style: dotted;
+    list-style: none;
+    display: grid;
+    grid-area: headerNav;
 }
-#headerNav a{
-    float: left;
-    padding: 10px;
+
+#headerNav ul li{
+    display: flex;
+    height: auto;
+    width: auto;
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
 }
 
 #heroBanner{
@@ -157,7 +164,8 @@ header{
                             "whoCard3 whoCard4";
 }
 #button{
-    /**/
+    margin-left: 15px;
+    margin-top: -120px;
 }
 
 .CTA{/*button styling*/
@@ -304,19 +312,29 @@ header{
     display: inline-block;
     vertical-align: top;
     width: 400px;
-
-    margin-left: 100px;
+    margin-left: 350px;
 }
 
 #whatLeft p{
     width: 100%;
-    margin-left: 20%;
+    margin-left: 25%;
     padding-right: 30px;
 }
 
 #stockDropdown{
-    margin-left: 80px;
-    padding-right: 10px;
+    border-style: solid;
+    background-color: #eff7f0;
+    height: 35px;
+    width: 300px;
+    border-radius: 10px;
+    text-align: center;
+    cursor:text;
+    margin-left: 140px;
+}
+
+#stockDropdown p {
+    margin-left: 15px;
+    margin-top: 2px;
 }
 
 #whatRight{
@@ -339,7 +357,6 @@ header{
 }
 
 #right{
-    border-style: dotted;
 }
 
 #restock{
@@ -407,23 +424,32 @@ header{
 
 
 /*Page 3 Declarations________________________________*/
+
+#donorPic{
+    padding-top: 40px;
+    margin-left: 18%;
+    padding-bottom: 60px;
+}
+
 #donateText{
-    float: left;
+    float: right;
     text-align: left;
-    margin-left: 700px;
-    margin-top: -325px;
-    width: 30%;
+    margin-right: 30%;
+    margin-top: 0px;
+    width: 300px;
+    padding-top: 40px;
 }
 
 #directions{
+    margin-left: 15%;
+    margin-bottom: -6%;
 }
 .cardStep{
     display: inline-block;
     width: 250px;
 
-    margin: 4vw;
+    margin: 2vw;
     vertical-align:top;
-    padding: 2%
 }
 #firstStep{
     margin-left: 12vw;
@@ -440,6 +466,27 @@ header{
     text-align: left;
 }
 
+#location2 p{
+    float: right;
+    margin-left: 18%;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+#grid-child1{
+    margin-left: -250%;
+    margin-top: 30%;
+}
+
+#grid-child2{
+    margin-left: -200%;
+    margin-top: 30%;
+}
+
 /*there is a CTA3, but i put it up next to both CTA2's*/
 
 
@@ -447,23 +494,21 @@ header{
     display: inline-block;
     width: 350px;
     padding: 4%;
-    margin-left: 10vw;
+    margin-right: 40%;
 }
 
 #lowLeft{
     display: inline-block;
     vertical-align: top;
-    width: 650px;
-
+    width: 550px;
     padding: 4%;
-    margin-left: 10vw;
+    margin-left: 26%;
+    margin-top: -80px;
 }
 #lowRight{
     display: inline-block;
     vertical-align: top;
     width: 350px;
-
-    padding: 4%;
     margin-left: 0px;
 }
 
@@ -488,9 +533,13 @@ header{
 
 .lastCTAs{
     text-align: center;
-    padding-bottom: 3%;
     margin: auto;
-    margin-top: 5vh;
+    margin-top: 8%;
+}
+
+.lastSections p{
+    width: 475px;
+    margin-top: -30px;
 }
 
 /*Footer Declarations________________________________*/
