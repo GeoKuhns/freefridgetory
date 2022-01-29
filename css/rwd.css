@@ -35,8 +35,11 @@
 }*/
 
 
-/*
 
+
+    #getInv{
+        margin-top: 150px;
+    }
 /*Breakpoint: Mobile*/
 @media all and (max-width: 1000px){
 
@@ -50,6 +53,14 @@
         margin-left: 180px;
     }
 
+    #getInv{
+        margin-top: 00px;
+    }
+    
+    #CTA2{
+        margin-left: 200px;
+    }
+
     #whoLeft{
         text-align: left;
         padding-left: 12%;
@@ -60,7 +71,7 @@
 
     #whoRight{
         float:left;
-        margin-left:20vw;
+        margin-left:22vw;
         margin-top: -170px;
     }
 
@@ -87,11 +98,15 @@
     }
     
     /*Map_______________________________________________________*/
+    #mapRWD{
+        margin-left: -4vw;
+    }
+    
     #location{
         float: none;
         text-align: left;
         margin-top: 60px;
-        margin-left: 0px;
+        margin-left: -60px;
         padding-left: 12%;
         padding-right: 12%;
         width: 100%;

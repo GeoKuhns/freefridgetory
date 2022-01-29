@@ -434,10 +434,10 @@ header{
 #donateText{
     float: right;
     text-align: left;
-    margin-right: 30%;
-    margin-top: 0px;
-    width: 300px;
+    margin-top: 120px;
+    width: 30vw;
     padding-top: 40px;
+    padding-right: 10vw;
 }
 
 #directions{
